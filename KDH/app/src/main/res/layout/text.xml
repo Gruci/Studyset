@@ -21,4 +21,34 @@
         android:layout_height="wrap_content"
         android:text="Text"/>
 
+    <TextView
+        android:id="@+id/textGravity"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorBlue"
+        android:gravity="left|top"
+        android:text="왼쪽위"
+        />
+
+    <TextView
+        android:id="@+id/textGravity2"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorBlue"
+        android:gravity="right|top"
+        android:text="오른쪽위"
+        />
+
+    <TextView
+        android:id="@+id/textGravity3"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorBlue"
+        android:gravity="left|bottom"
+        android:text="왼쪽아래"
+        />
+
 </LinearLayout>
