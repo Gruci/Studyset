@@ -12,14 +12,14 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:autoLink="web"
-        android:text="레이아웃에 설정한 URL:http://www.naver.com"/>
+        android:text="레이아웃에 설정한 URL:http://www.naver.com" />
 
     <TextView
         style="@style/TextShadow"
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Text"/>
+        android:text="Text" />
 
     <TextView
         android:id="@+id/textGravity"
@@ -28,8 +28,7 @@
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:background="@color/colorBlue"
         android:gravity="left|top"
-        android:text="왼쪽위"
-        />
+        android:text="왼쪽위" />
 
     <TextView
         android:id="@+id/textGravity2"
@@ -38,8 +37,7 @@
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:background="@color/colorBlue"
         android:gravity="right|top"
-        android:text="오른쪽위"
-        />
+        android:text="오른쪽위" />
 
     <TextView
         android:id="@+id/textGravity3"
@@ -48,7 +46,6 @@
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:background="@color/colorBlue"
         android:gravity="left|bottom"
-        android:text="왼쪽아래"
-        />
+        android:text="왼쪽아래" />
 
 </LinearLayout>
