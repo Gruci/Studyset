@@ -6,6 +6,7 @@
 - [T Academy](https://tacademy.sktechx.com/live/player/listOnline.action)
 - [Develpoer training](https://developer.android.com/training/index.html)
 - [예제가 가득한 android 프로그래밍](http://book.naver.com/bookdb/book_detail.nhn?bid=9586856)
+- [안드로이드 프로그래밍 정복](http://www.hanbit.co.kr/store/books/look.php?p_code=B3349883544)
 
 ## Guides
 - [GFM (Github Flavored Markdown)](https://help.github.com/articles/github-flavored-markdown/)
