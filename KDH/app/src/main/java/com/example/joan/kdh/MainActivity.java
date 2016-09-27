@@ -2,6 +2,9 @@ package com.example.joan.kdh;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.*;
+import android.widget.*;
+
 //import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +17,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(myText);*/
 
         setContentView(R.layout.activity_main);
-        
+
+        Button btn = (Button)findViewById(R.id.btn);
+        btn.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                EditText edit = (EditText)findViewById(R.id.edit);
+                String str = edit.getText().toString();
+                Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 }
