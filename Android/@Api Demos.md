@@ -1,1 +1,0 @@
-- [Api Demos](https://android.googlesource.com/platform/development/+refs)/ver/samples
